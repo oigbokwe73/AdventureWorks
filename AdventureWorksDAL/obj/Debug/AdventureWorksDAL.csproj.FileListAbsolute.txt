@@ -1,0 +1,5 @@
+C:\Projects\AdventureWorks\AdventureWorksDAL\bin\Debug\AdventureWorksDAL.dll.config
+C:\Projects\AdventureWorks\AdventureWorksDAL\bin\Debug\AdventureWorksDAL.dll
+C:\Projects\AdventureWorks\AdventureWorksDAL\bin\Debug\AdventureWorksDAL.pdb
+C:\Projects\AdventureWorks\AdventureWorksDAL\obj\Debug\AdventureWorksDAL.dll
+C:\Projects\AdventureWorks\AdventureWorksDAL\obj\Debug\AdventureWorksDAL.pdb

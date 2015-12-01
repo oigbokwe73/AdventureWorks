@@ -1,0 +1,8 @@
+C:\Projects\AdventureWorks\StoreFrontService\bin\StoreFrontService.dll.config
+C:\Projects\AdventureWorks\StoreFrontService\bin\StoreFrontService.dll
+C:\Projects\AdventureWorks\StoreFrontService\bin\StoreFrontService.pdb
+C:\Projects\AdventureWorks\StoreFrontService\bin\AdventureWorksDAL.dll
+C:\Projects\AdventureWorks\StoreFrontService\bin\AdventureWorksDAL.pdb
+C:\Projects\AdventureWorks\StoreFrontService\obj\Debug\StoreFrontService.csprojResolveAssemblyReference.cache
+C:\Projects\AdventureWorks\StoreFrontService\obj\Debug\StoreFrontService.dll
+C:\Projects\AdventureWorks\StoreFrontService\obj\Debug\StoreFrontService.pdb

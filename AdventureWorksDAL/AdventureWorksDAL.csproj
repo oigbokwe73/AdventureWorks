@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7D8E47C-9649-4BA5-9357-F76D5BE24790}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdventureWorksDAL</RootNamespace>
+    <AssemblyName>AdventureWorksDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessComponents\DB.AWBuildVersion.cs" />
+    <Compile Include="BusinessComponents\DB.BillOfMaterial.cs" />
+    <Compile Include="BusinessComponents\DB.BusinessEntityAddress.cs" />
+    <Compile Include="BusinessComponents\DB.BusinessEntityContact.cs" />
+    <Compile Include="BusinessComponents\DB.ContactType.cs" />
+    <Compile Include="BusinessComponents\DB.CountryRegion.cs" />
+    <Compile Include="BusinessComponents\DB.CountryRegionCurrency.cs" />
+    <Compile Include="BusinessComponents\DB.Culture.cs" />
+    <Compile Include="BusinessComponents\DB.Currency.cs" />
+    <Compile Include="BusinessComponents\DB.CurrencyRate.cs" />
+    <Compile Include="BusinessComponents\DB.Customer.cs" />
+    <Compile Include="BusinessComponents\DB.Department.cs" />
+    <Compile Include="BusinessComponents\DB.EmailAddress.cs" />
+    <Compile Include="BusinessComponents\DB.EmployeeDepartmentHistory.cs" />
+    <Compile Include="BusinessComponents\DB.ErrorLog.cs" />
+    <Compile Include="BusinessComponents\DB.Illustration.cs" />
+    <Compile Include="BusinessComponents\DB.Illustration1.cs" />
+    <Compile Include="BusinessComponents\DB.JobCandidate.cs" />
+    <Compile Include="BusinessComponents\DB.Location.cs" />
+    <Compile Include="BusinessComponents\DB.Password.cs" />
+    <Compile Include="BusinessComponents\DB.Person.cs" />
+    <Compile Include="BusinessComponents\DB.PersonCreditCard.cs" />
+    <Compile Include="BusinessComponents\DB.PersonPhone.cs" />
+    <Compile Include="BusinessComponents\DB.PhoneNumberType.cs" />
+    <Compile Include="BusinessComponents\DB.Product.cs" />
+    <Compile Include="BusinessComponents\DB.ProductCategory.cs" />
+    <Compile Include="BusinessComponents\DB.ProductCostHistory.cs" />
+    <Compile Include="BusinessComponents\DB.ProductDescription.cs" />
+    <Compile Include="BusinessComponents\DB.ProductInventory.cs" />
+    <Compile Include="BusinessComponents\DB.ProductListPriceHistory.cs" />
+    <Compile Include="BusinessComponents\DB.ProductModel.cs" />
+    <Compile Include="BusinessComponents\DB.ProductModelIllustration.cs" />
+    <Compile Include="BusinessComponents\DB.ProductModelProductDescriptionCulture.cs" />
+    <Compile Include="BusinessComponents\DB.ProductPhoto.cs" />
+    <Compile Include="BusinessComponents\DB.DatabaseLog.cs" />
+    <Compile Include="BusinessComponents\DB.ProductProductPhoto.cs" />
+    <Compile Include="BusinessComponents\DB.ProductSubcategory.cs" />
+    <Compile Include="BusinessComponents\DB.ProductVendor.cs" />
+    <Compile Include="BusinessComponents\DB.PurchaseOrderDetail.cs" />
+    <Compile Include="BusinessComponents\DB.PurchaseOrderHeader.cs" />
+    <Compile Include="BusinessComponents\DB.SalesOrderHeaderSalesReason.cs" />
+    <Compile Include="BusinessComponents\DB.SalesPerson.cs" />
+    <Compile Include="BusinessComponents\DB.SalesPersonQuotaHistory.cs" />
+    <Compile Include="BusinessComponents\DB.SalesReason.cs" />
+    <Compile Include="BusinessComponents\DB.SalesTerritory.cs" />
+    <Compile Include="BusinessComponents\DB.SalesOrderDetail.cs" />
+    <Compile Include="BusinessComponents\DB.SalesOrderHeader.cs" />
+    <Compile Include="BusinessComponents\DB.ShipMethod.cs" />
+    <Compile Include="BusinessComponents\DB.StateProvince.cs" />
+    <Compile Include="BusinessComponents\DB.CreditCard.cs" />
+    <Compile Include="BusinessComponents\DB.SalesTerritoryHistory.cs" />
+    <Compile Include="BusinessComponents\DB.ProductReview.cs" />
+    <Compile Include="BusinessComponents\DB.EmployeePayHistory.cs" />
+    <Compile Include="BusinessComponents\DB.Store.cs" />
+    <Compile Include="BusinessComponents\DB.TransactionHistory.cs" />
+    <Compile Include="BusinessComponents\DB.TransactionHistoryArchive.cs" />
+    <Compile Include="BusinessComponents\DB.UnitMeasure.cs" />
+    <Compile Include="BusinessComponents\DB.Vendor.cs" />
+    <Compile Include="BusinessComponents\DB.vProductAndDescription.cs" />
+    <Compile Include="BusinessComponents\DB.WorkOrderRouting.cs" />
+    <Compile Include="BusinessComponents\DB.WorkOrder.cs" />
+    <Compile Include="BusinessComponents\DB.ScrapReason.cs" />
+    <Compile Include="BusinessComponents\DB.SpecialOfferProduct.cs" />
+    <Compile Include="BusinessComponents\DB.ShoppingCartItem.cs" />
+    <Compile Include="BusinessComponents\DB.SalesTaxRate.cs" />
+    <Compile Include="BusinessComponents\DB.Products.cs" />
+    <Compile Include="BusinessComponents\DB.SpecialOffer.cs" />
+    <Compile Include="BusinessComponents\AdventureWorksDataContext.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataContext\AdventureWorksDataContext.cs">
+      <DependentUpon>AdventureWorksDataContext.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataContext\AdventureWorksDataContext.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdventureWorksDataContext.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataContext\BaseContext.cs" />
+    <Compile Include="DataContext\DALDataContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataContext\AdventureWorksDataContext.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>AdventureWorksDataContext.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataContext\AdventureWorksDataContext.dbml.layout">
+      <DependentUpon>AdventureWorksDataContext.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
